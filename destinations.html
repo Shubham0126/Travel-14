@@ -67,10 +67,10 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                             <div class="navbar-nav nav ms-auto">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                <a class="nav-link " aria-current="page" href="index.html">Home</a>
                                 <a class="nav-link" href="about.html">About Us</a>
                                 <a class="nav-link" href="#">Blogs</a>
-                                <a class="nav-link" href="destinations.html">Destinations</a>
+                                <a class="nav-link active" href="destinations.html">Destinations</a>
                                 <a class="nav-link" href="contact.html">Contact</a>
                             </div>
                         </div>
@@ -80,42 +80,18 @@
         </div>
     </header>
     
-           <!-- ################# Slider Starts Here #######################--->       
-          
-           <div class="home-container p-0"> 
-            <div id="carouselExample" class="carousel slide">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/slider-1.webp" class="d-block w-100" alt="Images">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center text-white">
-                        <h1>Travel With Us</h1>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/slider-2.webp" class="d-block w-100" alt="Images">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center text-white">
-                        <h1>Book Your Heaven!</h1>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/slider-3.webp" class="d-block w-100" alt="Images">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center text-white">
-                        <h1>Book Your Journey!</h1>
-                      </div>
-                  </div>
-                  
-                  
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+    <div class="page-nav no-margin row">
+        <div class="container">
+            <div class="row">
+                <h2>Destinations</h2>
+                <ul>
+                    <li> <a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><i class="fas fa-angle-double-right"></i> Destinations</li>
+                </ul>
+            </div>
         </div>
+    </div>
+         
         
         <section class="section section-variant-1 bg-default novi-background bg-cover"> 
             <div class="container container-wide">
@@ -205,66 +181,87 @@
             </div>
           </section>
 
-          <section>
-            <div class="container feature my-5">
+<!-- Destination Details -->
 
-              <div class="row text-center mb-5">
-                <h2 >Features</h2>
-              </div>
-                
-                <div class="row row-cols-1 row-cols-md-4 g-4">
-                    <div class="col">
-                      <div class="card h-100">
-                        <div class="d-flex align-items-center justify-content-center py-4">
-                            <i class="fa-solid fa-plane-up fa-2x"></i>
+          <div class="container-fluid" style="background-color: #eaeaea;">
+            <div class="container bg-white" >
+                <div class="row text-center mb-4">
+                    <h2 class="fw-bold">Destinations Details</h2>
+                </div>
+                <ul class="slides owl-carousel place-carousel">
+                    <li>
+                    <div class="row">
+                        <div class="col">
+                            
+                      <img src="img/benidorm.webp" class="img-fluid" alt="image" />
                         </div>
+                      <div class="flex-caption col-lg">
+                          <h2 class="slider-title">Welcome To Benidorm</h2>
+                          <h3 class="slider-subtitle">Lorem ipsum dolor sit.</h3>
+                          <p class="slider-description">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris gestas quam, ut aliquam massa nisi.</p>
+                          <div>
+                            <a href="#" class="btn des_btn">Book Now</a>
+                          </div>
+                      </div>	
+                    </div>		      
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-lg">
+                                <img src="img/boston.webp" alt="image" />
+                            </div>
                         
-                        <div class="card-body">
-                          <h5 class="card-title">Air Tickets</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
+                      
+                      <div class="flex-caption col-lg">
+                          <h2 class="slider-title">Welcome to Boston</h2>
+                          <h3 class="slider-subtitle">Lorem ipsum dolor sit amet.</h3>
+                          <p class="slider-description">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.<br><br>
+                        Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris gestas quam, ut aliquam massa nisi.</p>
+                        <div>
+                            <a href="#" class="btn des_btn">Book Now</a>
+                          </div>
+                      </div>	
+                    </div>		      
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-lg">
+                                <img src="img/France.webp" alt="image" />
+                            </div>
+                      
+                      
+                      <div class="flex-caption col-lg">
+                          <h2 class="slider-title">Welcome to France</h2>
+                          <h3 class="slider-subtitle">Lorem ipsum dolor sit amet.</h3>
+                          <p class="slider-description">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris gestas quam, ut aliquam massa nisi.</p>
+                          <div>
+                            <a href="#" class="btn des_btn">Book Now</a>
+                          </div>
                       </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100">
-                        <div class="d-flex align-items-center justify-content-center py-4">
-                            <i class="fa-solid fa-map fa-2x"></i>
-                        </div>
-                        
-                        <div class="card-body">
-                          <h5 class="card-title">Voyages & Cruises</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100">
-                        <div class="d-flex align-items-center justify-content-center py-4">
-                            <i class="fa-solid fa-hotel fa-2x"></i>
-                        </div>
+                    </div>			      
+                    </li>
+                    <li>
+                        <div class="row">
+                            <div class="col-lg">
+                                <img src="img/egypt.webp" alt="image" />
+                            </div>
                        
-                        <div class="card-body">
-                          <h5 class="card-title">Hotel Booking</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                        </div>
+                      
+                      <div class="flex-caption col-lg">
+                          <h2 class="slider-title">Welcome to Egypt</h2>
+                          <h3 class="slider-subtitle">Lorem ipsum dolor sit amet consectetur.</h3>
+                          <p class="slider-description">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris gestas quam, ut aliquam massa nisi.</p>
+                          <div>
+                            <a href="#" class="btn des_btn">Book Now</a>
+                          </div>
                       </div>
-                    </div>
-                    <div class="col">
-                      <div class="card h-100">
-                        <div class="d-flex align-items-center justify-content-center py-4">
-                            <i class="fa-solid fa-umbrella-beach fa-2x"></i>
-                        </div>
-                        <div class="card-body">
-                          <h5 class="card-title">Summer Tours</h5>
-                          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-          </section>
+                    </div>			      
+                    </li>
+                  </ul>
+               </div>
+        </div>
 
-          <!-- footer -->
+          <!-- footer Section -->
 <footer class="footerv4-w3ls py-sm-5 py-4">
 	<div class="footerv4-top">
 		<div class="container">
