@@ -15,6 +15,44 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="container-fluid">
+    <div class="container popup-form">
+      <form>
+        <div class="row text-center">
+          <h4 class="fw-bold">Book Now</h4>
+        </div>
+        <div class="row mb-3">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="From">
+          </div>
+          <div class="form-popup-closecol">
+            <input type="text" class="form-control" placeholder="To">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Check-In">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Check-Out">
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col">
+            <select id="inputState" class="form-control">
+              <option selected>Hotels</option>
+              <option>Flights</option>
+              <option>Vacations</option>
+            </select>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary btn-lg btn-block mb-2">Submit Now</button>
+        <div class="text-center">
+          <a id="form-popup-close">Close Now</a>
+        </div>
+      </form>
+    </div>
+  </div>
     <!-- ################# Header Starts Here #######################--->       
          
     <header class="conainer-fluid fixed-top navigation">
@@ -89,18 +127,21 @@
                     <img src="img/slider-1.webp" class="d-block w-100" alt="Images">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center text-white">
                         <h1>Travel With Us</h1>
+                        <button id="book_btn" class="button button-secondary mt-5">Book Now</button>
                       </div>
                   </div>
                   <div class="carousel-item">
                     <img src="img/slider-2.webp" class="d-block w-100" alt="Images">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center text-white">
                         <h1>Book Your Heaven!</h1>
+                        <button id="book_btn" class="button button-secondary mt-5">Book Now</button>
                       </div>
                   </div>
                   <div class="carousel-item">
                     <img src="img/slider-3.webp" class="d-block w-100" alt="Images">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center text-white">
                         <h1>Book Your Journey!</h1>
+                        <button id="book_btn" class="button button-secondary mt-5">Book Now</button>
                       </div>
                   </div>
                   

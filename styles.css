@@ -1302,9 +1302,54 @@ ul.footer-link li a {
 	color: white;
 	font-weight: bold;
 }
-
+.btn-primary{
+	background-color: #f5d11d;
+	border-color: #f5d11d;
+	color: white;
+	font-weight: bold;
+}
+.btn-primary:hover{
+	background-color: white;
+	border-color: #f5d11d;
+	color: #f5d11d;
+}
 @media screen and (max-width: 992px) {
 	.place-carousel .owl-dots {
 		margin-top: 10px;
+	  }
+  }
+
+  /* Form Pop-Up */
+  .popup-form{
+	display: none;
+	max-width: 1200px;
+	padding: 50px;
+	top: 200px;
+	left: 200px;
+	position: fixed;
+	z-index: 111;
+	background-color: rgb(240, 240, 240);
+  }
+  .form-control{
+	color: black;
+	font-weight: 500;
+  }
+  .popup-form a{
+	color: #f5d11d !important;
+	font-weight: bold;
+	cursor: pointer;
+  }
+  .popup-form a:hover{
+	color: #444!important;
+  }
+
+  @media screen and (max-width: 1450px) {
+	.popup-form{
+		left: 100px;
+	  }
+  }
+  @media screen and (max-width: 1200px) {
+	.popup-form{
+		left: 0;
 	  }
   }

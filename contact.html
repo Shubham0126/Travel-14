@@ -15,6 +15,44 @@
       <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+	<div class="container-fluid " style="z-index: 110; background-color: white;">
+		<div class="container popup-form">
+		  <form>
+			<div class="row text-center">
+			  <h4 class="fw-bold">Book Now</h4>
+			</div>
+			<div class="row mb-3">
+			  <div class="col">
+				<input type="text" class="form-control" placeholder="From">
+			  </div>
+			  <div class="form-popup-closecol">
+				<input type="text" class="form-control" placeholder="To">
+			  </div>
+			</div>
+			<div class="row mb-3">
+			  <div class="col">
+				<input type="text" class="form-control" placeholder="Check-In">
+			  </div>
+			  <div class="col">
+				<input type="text" class="form-control" placeholder="Check-Out">
+			  </div>
+			</div>
+			<div class="row mb-3">
+			  <div class="col">
+				<select id="inputState" class="form-control">
+				  <option selected>Hotels</option>
+				  <option>Flights</option>
+				  <option>Vacations</option>
+				</select>
+			  </div>
+			</div>
+			<button type="button" class="btn btn-primary btn-lg btn-block mb-2">Submit Now</button>
+			<div class="text-center">
+			  <a id="form-popup-close">Close Now</a>
+			</div>
+		  </form>
+		</div>
+	  </div>
      <!-- ################# Header Starts Here #######################--->       
          
 	 <header class="conainer-fluid fixed-top navigation">
