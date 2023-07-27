@@ -18,16 +18,19 @@ $("#form-popup-close").click(function(){
     $(".popup-form").hide();
 });
 
+$(".fa-times").click(function(){
+    $('.modal-box').hide();
+});
 
 var delay = 5000;
 setTimeout(function() {
   setInterval(function(){
     $(document).ready(function () {
 
-        $('.popup-form').show();
+        $('.modal-box').show();
     
     });
-  },6000)
+  },4000)
 }, delay);
 
 
