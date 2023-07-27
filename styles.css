@@ -1367,7 +1367,7 @@ ul.footer-link li a {
 	right: 0; 
 	top: 20%;  
 	margin: auto;
-	width: 400px;
+	max-width: 400px;
 	padding: 30px;
 	z-index: 100;
 	border-radius: 5px;
