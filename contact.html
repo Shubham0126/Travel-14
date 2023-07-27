@@ -15,44 +15,65 @@
       <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<div class="container-fluid " style="z-index: 110; background-color: white;">
-		<div class="container popup-form">
-		  <form>
-			<div class="row text-center">
-			  <h4 class="fw-bold">Book Now</h4>
-			</div>
-			<div class="row mb-3">
-			  <div class="col">
-				<input type="text" class="form-control" placeholder="From">
-			  </div>
-			  <div class="form-popup-closecol">
-				<input type="text" class="form-control" placeholder="To">
-			  </div>
-			</div>
-			<div class="row mb-3">
-			  <div class="col">
-				<input type="text" class="form-control" placeholder="Check-In">
-			  </div>
-			  <div class="col">
-				<input type="text" class="form-control" placeholder="Check-Out">
-			  </div>
-			</div>
-			<div class="row mb-3">
-			  <div class="col">
-				<select id="inputState" class="form-control">
-				  <option selected>Hotels</option>
-				  <option>Flights</option>
-				  <option>Vacations</option>
-				</select>
-			  </div>
-			</div>
-			<button type="button" class="btn btn-primary btn-lg btn-block mb-2">Submit Now</button>
-			<div class="text-center">
-			  <a id="form-popup-close">Close Now</a>
-			</div>
-		  </form>
+	 <!-- marketing Popup -->
+	 <div class="center modal-box">
+		<div class="fas fa-times"></div>
+		<div class="fas fa-phone icon1"></div>
+		<header>Don't miss chance call now</header>
+		<p>
+		   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, suscipit, pers
+		</p>
+		<form action="">
+		   <h3>+1 234 567 89</h3>
+		   <button>Call Now</button>
+		</form>
+		<div class="icons">
+		   <i class="fab fa-facebook-f"></i>
+		   <i class="fab fa-twitter"></i>
+		   <i class="fab fa-instagram"></i>
+		   <i class="fab fa-youtube"></i>
 		</div>
-	  </div>
+	 </div>
+
+ <!-- form Popup -->
+ <div class="container-fluid">
+   <div class="container popup-form">
+	 <form>
+	   <div class="row text-center">
+		 <h4 class="fw-bold">Book Now</h4>
+	   </div>
+	   <div class="row mb-3">
+		 <div class="col">
+		   <input type="text" class="form-control" placeholder="From">
+		 </div>
+		 <div class="form-popup-closecol">
+		   <input type="text" class="form-control" placeholder="To">
+		 </div>
+	   </div>
+	   <div class="row mb-3">
+		 <div class="col">
+		   <input type="text" class="form-control" placeholder="Check-In">
+		 </div>
+		 <div class="col">
+		   <input type="text" class="form-control" placeholder="Check-Out">
+		 </div>
+	   </div>
+	   <div class="row mb-3">
+		 <div class="col">
+		   <select id="inputState" class="form-control">
+			 <option selected>Hotels</option>
+			 <option>Flights</option>
+			 <option>Vacations</option>
+		   </select>
+		 </div>
+	   </div>
+	   <button type="button" class="btn btn-primary btn-lg btn-block mb-2">Submit Now</button>
+	   <div class="text-center">
+		 <a id="form-popup-close">Close Now</a>
+	   </div>
+	 </form>
+   </div>
+ </div>
      <!-- ################# Header Starts Here #######################--->       
          
 	 <header class="conainer-fluid fixed-top navigation">
@@ -105,11 +126,11 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                             <div class="navbar-nav nav ms-auto">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                <a class="nav-link " aria-current="page" href="index.html">Home</a>
                                 <a class="nav-link" href="about.html">About Us</a>
                                 <a class="nav-link" href="#">Blogs</a>
                                 <a class="nav-link" href="destinations.html">Destinations</a>
-                                <a class="nav-link" href="contact.html">Contact</a>
+                                <a class="nav-link active" href="contact.html">Contact</a>
                             </div>
                         </div>
                     </nav>
@@ -145,7 +166,7 @@
 				<form action="#" method="post" class="tm-contact-form row">
 					<div class="col-lg-6 col-md-6">
 						<div id="google-map">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387194.06224132766!2d-74.30932583906728!3d40.697019291653994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1688129580678!5m2!1sen!2sin" width="534" height="335" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387194.06224132766!2d-74.30932583906728!3d40.697019291653994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1688129580678!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 						</div>
 						<div class="contact-social">
 							<a href="#" class="tm-social-icon tm-social-facebook"><i class="fa fa-facebook"></i></a>

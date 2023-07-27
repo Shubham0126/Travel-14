@@ -2,6 +2,7 @@
 	margin: 0px;
 	padding: 0px;
 	list-style: none;
+	overflow-x: hidden;
   }
   
   img {
@@ -141,13 +142,15 @@
   
   .clldetal ul li i {
     color: black;
-    margin-right: 5px;
+    margin-left: 5px;
   }
   
    /* .clldetal ul .bgb {
     padding-top: 18px;
   } */
-  
+  .navbar-toggler{
+	margin-right: 24px;
+  }
    .clldetal ul .btn {
     box-shadow: none;
   }
@@ -1170,8 +1173,8 @@ ul.footer-link li a {
 	max-width: 550px;
 }
 #google-map {
-	height: 335px;
-	width: 100%;
+	max-height: 335px;
+	max-width: 100%;
 }
 .tm-submit-btn {
 	background: #f5d11d; /* Old browsers */ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
@@ -1458,4 +1461,10 @@ ul.footer-link li a {
   .icons i:hover{
 	transform: scale(1.1);
 	color: #f5d11d;
+  }
+
+  /* Faqs */
+  .accordion-button:not(.collapsed){
+	color: white;
+	background-color: #e6be06;
   }
